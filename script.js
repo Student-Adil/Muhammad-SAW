@@ -8,7 +8,7 @@ const pages = [
     accent: "#0f766e",
     year: "570-632 CE",
     paragraphs: [
-      "An educational presentation based on the provided PDF.",
+      "Source of information are of different religious books.",
       "Created by: Malik Adil Ferooz",
       "Gmail:malikaadil1225@gmail.com"
     ],
