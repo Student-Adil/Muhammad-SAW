@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Life of Prophet Muhammad ﷺ</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="presentation-shell">
+      <aside class="side-rail" aria-label="Presentation navigation">
+        <button class="brand-mark" id="coverBtn" type="button" aria-label="Go to cover">
+          <span>LM</span>
+        </button>
+
+        <nav class="page-dots" id="pageDots" aria-label="Pages"></nav>
+
+        <div class="rail-footer">
+          <span id="currentPageLabel">Cover</span>
+          <div class="progress-track" aria-hidden="true">
+            <span id="progressFill"></span>
+          </div>
+        </div>
+      </aside>
+
+      <section class="stage" aria-live="polite">
+        <div class="ambient-grid" aria-hidden="true"></div>
+
+        <article class="slide" id="slide">
+          <header class="slide-header">
+            <p class="kicker" id="slideKicker">A Journey of Faith, Mercy, Justice and Humanity</p>
+            <div class="page-chip" id="pageChip">Cover</div>
+          </header>
+
+          <div class="slide-layout">
+            <section class="slide-copy">
+              <p class="section-label" id="sectionLabel">Educational Presentation</p>
+              <h1 id="slideTitle">Life of Prophet Muhammad ﷺ</h1>
+              <div class="body-content" id="bodyContent"></div>
+            </section>
+
+            <section class="visual-panel" aria-label="Page visual">
+              <div class="visual-orbit">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+              <div class="symbol-card" id="symbolCard">
+                <span id="symbolIcon">نور</span>
+              </div>
+              <div class="mini-timeline" id="miniTimeline"></div>
+            </section>
+          </div>
+
+          <footer class="slide-actions">
+            <button class="nav-button" id="prevBtn" type="button" aria-label="Previous page">
+              <span aria-hidden="true">‹</span>
+            </button>
+            <div class="page-title-strip" id="pageTitleStrip"></div>
+            <button class="nav-button" id="nextBtn" type="button" aria-label="Next page">
+              <span aria-hidden="true">›</span>
+            </button>
+          </footer>
+        </article>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
